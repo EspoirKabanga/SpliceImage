@@ -85,4 +85,8 @@ figures/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Local files not to be added to GitHub
+interpretability_FCGR.py
+interpretability_DCFP.py 
