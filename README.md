@@ -31,12 +31,9 @@ SpliceImage uses image-based representations of DNA sequences (Frequency Chaos G
 - `interpretability_DCFP.py`: Analysis and visualization of model predictions for DFCP images
 - `color_label.py`: Generates visualization of the DNA dinucleotide color mapping used in representations
 
-## Data Requirements
+## Data availability
 
-The code expects data organized in the following structure:
-- Training and testing datasets for each species
-- Separate datasets for acceptor and donor sites
-- Each dataset containing positive and negative examples of splice sites
+The dataset (DNA sequences) used in this project can be downloaded from https://github.com/XueyanLiu-creator/DRANetSplicer/tree/main/data/dna_sequences
 
 ## Dependencies
 
