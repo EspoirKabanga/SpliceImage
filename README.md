@@ -27,8 +27,7 @@ SpliceImage uses image-based representations of DNA sequences (Frequency Chaos G
 - `evaluate_models_test_dirs_homo.py`: Evaluates trained models on Homo sapiens test data
 
 ### Interpretability and Visualization
-- `interpretability_FCGR.py`: Analysis and visualization of model predictions for FCGR images
-- `interpretability_DCFP.py`: Analysis and visualization of model predictions for DFCP images
+- `dna_image_Grad_and_saliency.py`: Generates and visualizes Grad-CAM and saliency maps for model interpretability
 - `color_label.py`: Generates visualization of the DNA dinucleotide color mapping used in representations
 
 ## Data availability
@@ -72,8 +71,7 @@ python evaluate_models_test_dirs_homo.py
 ### Analyzing and Visualizing Results
 
 ```bash
-python interpretability_FCGR.py  # For FCGR-based analysis
-python interpretability_DCFP.py  # For DFCP-based analysis
+python dna_image_Grad_and_saliency.py
 ```
 
 ### Generating Color Label Reference
